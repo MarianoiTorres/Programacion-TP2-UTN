@@ -32,7 +32,7 @@ const Register = () => {
             password: ''
         })
 
-        navigate('/')
+        navigate('/login')
     }
 
     return (
