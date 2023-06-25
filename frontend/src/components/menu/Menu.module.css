@@ -1,0 +1,30 @@
+.container {
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgb(35, 35, 35);
+
+}
+
+.secondContainer {
+    display: flex;
+  justify-content: space-between;
+  padding: 14px;
+}
+
+.button {
+    height: 50px;
+    width: 80px;
+    margin-left: 10px;
+}
+
+.usuarioLogeado {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.usuarioLogeado h3 {
+  color: white;
+  margin: 0;
+}

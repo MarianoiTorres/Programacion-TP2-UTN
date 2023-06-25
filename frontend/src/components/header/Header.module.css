@@ -1,0 +1,15 @@
+.container {
+    background-color: rgb(24, 24, 24);
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.container h1 {
+    margin: 0;
+    color: white;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
