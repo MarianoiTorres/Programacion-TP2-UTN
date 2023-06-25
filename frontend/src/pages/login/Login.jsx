@@ -47,9 +47,11 @@ const Login = () => {
 
                     <input placeholder='Password' type="password" name="password" onChange={onChangeHandler} value={user.password} />
 
-                    <button type="submit">Sign In</button>
+                    <button className={style.button} type="submit">Sign In</button>
+
                     <p>Don't have an account yet?</p>
-                    <Link to='/register'><button type='button'>Sign Up</button></Link>
+                    
+                    <Link to='/register'><button className={style.button} type='button'>Sign Up</button></Link>
 
                 </form>
 

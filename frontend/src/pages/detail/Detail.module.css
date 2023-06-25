@@ -1,6 +1,6 @@
 .container {
     width: 100%;
-    height: 100vh;
+    height: fit-content;
     display: flex;
     justify-content: center;
     background-color: rgb(24, 24, 24);
@@ -8,11 +8,12 @@
 
 .secondContainer {
     background-color: rgb(226, 226, 226);
-    width: 80%;
+    width: 85%;
 }
 
 .secondContainer h1 {
     margin-top: 40px;
+    
 }
 
 .containerInfo {
@@ -20,6 +21,7 @@
     justify-content: center;
     align-items: center;
     padding: 50px;
+    padding-bottom: 0;
 }
 
 .info {
@@ -30,4 +32,5 @@
 .image {
     width: 400px;
     border-radius: 50px;
+    margin-left: 10px;
 }

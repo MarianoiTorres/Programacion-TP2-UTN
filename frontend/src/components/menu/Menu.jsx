@@ -40,7 +40,7 @@ const Menu = () => {
             <div className={style.secondContainer}>
                 <div>
                     <Link to='/'><Button variant="dark" className={style.button}>Home</Button></Link>
-                    <Link to='/products'><Button variant="dark" className={style.button}>Products</Button></Link>
+                    <Link to='/products'><Button variant="dark" className={style.button}>Products </Button></Link>
                 </div>
                 <div className={style.usuarioLogeado}>
                     {

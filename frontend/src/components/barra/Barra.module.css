@@ -8,23 +8,27 @@
     padding-top: 70px;
 }
 
+ul {
+    gap: 8px;
+}
+
 .buttons {
     width: 200px;
     margin-top: 20px;
 
 }
 
-.buttons a {
-
+.buttons{
     text-decoration: none;
-    color: black;
+    color: rgb(24, 24, 24);
     font-weight: bold;
     margin-top: 5px;
     font-size: 20px;
 }
 
-.buttons:hover a{
-    color:rgb(33, 139, 122);
+.buttons:hover{
+    color: white;
+    background-color: rgb(15, 15, 15);
     transition: 0.5s ease;
     cursor: pointer;
 }

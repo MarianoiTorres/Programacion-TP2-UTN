@@ -7,9 +7,9 @@ const Barra = () => {
         <div className={style.container}>
             <div className={style.secondContainer}>
                 <ul>
-                    <Button className={style.buttons} variant="light"><a href='#about'>About</a></Button>
-                    <Button className={style.buttons} variant="light"> <a href='#location'>Our Location</a></Button>
-                    <Button className={style.buttons} variant="light"><a href='#cocina'>Our Cousine</a></Button>
+                    <a href='#about'><Button className={style.buttons} variant="light">About</Button></a>
+                    <a href='#location'><Button className={style.buttons} variant="light"> Our Location</Button></a>
+                    <a href='#cocina'><Button className={style.buttons} variant="light">Our Cousine</Button></a>
                 </ul>
             </div>
         </div>

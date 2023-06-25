@@ -48,7 +48,7 @@ const Register = () => {
                
                     <input placeholder="Password" type="password" name="password" onChange={onChangeHandler} value={user.password} />
 
-                    <button type="submit">Sign Up</button>
+                    <button className={style.button} type="submit">Sign Up</button>
                 </form>
             </div>
         </div>
